@@ -1,0 +1,31 @@
+.hero {
+  background: linear-gradient(135deg, #b3122f, #6f0a1e);
+  color: #fff;
+  padding: 44px 32px;
+  border-radius: 10px;
+}
+
+.hero__title {
+  margin: 0 0 10px;
+  font-size: 1.9rem;
+}
+
+.hero__subtitle {
+  margin: 0 0 20px;
+  opacity: 0.9;
+  max-width: 520px;
+}
+
+.hero__cta {
+  background: #fff;
+  color: #b3122f;
+  border: none;
+  padding: 11px 22px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero__cta:hover {
+  background: #f2f2f2;
+}

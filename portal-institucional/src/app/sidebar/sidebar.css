@@ -1,0 +1,33 @@
+.sidebar {
+  background: #22223b;
+  color: #fff;
+  padding: 28px 18px;
+  height: 100%;
+}
+
+.sidebar__title {
+  margin: 0 0 18px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #9a9ab3;
+}
+
+.sidebar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar__list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.94rem;
+}
+
+.sidebar__list a:hover {
+  color: #ff6b81;
+}
